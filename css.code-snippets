@@ -1,0 +1,38 @@
+{
+	"左右垂直居中": {
+		"prefix": "flex center",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;$2"
+		]
+	},
+	"占满父元素": {
+		"prefix": "absolute full",
+		"body": [
+			"position: absolute;",
+			"top: 0;",
+			"right: 0;",
+			"bottom: 0;",
+			"left: 0;$2"
+		]
+	},
+	"圆边框": {
+		"prefix": "border circle",
+		"body": [
+			"border: 1px solid;",
+			"border-radius: 50%;$2"
+		]
+	},
+	"通用图标样式": {
+		"prefix": ".icon",
+		"body": [
+			".icon {",
+			"  width: 1em; height: 1em;",
+			"  vertical-align: -0.15em;",
+			"  fill: currentColor;",
+			"  overflow: hidden;",
+			"}$2"
+		]
+	}
+}

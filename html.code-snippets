@@ -1,0 +1,10 @@
+{
+	"svg图标": {
+		"prefix": "svg",
+		"body": [
+			"<svg class=\"icon\" aria-hidden=\"true\">",
+			"  <use xlink:href=\"#${1:icon-name}\"></use>",
+			"</svg>$2"
+		]
+	}
+}
