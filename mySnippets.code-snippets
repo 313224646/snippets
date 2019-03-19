@@ -56,6 +56,12 @@
 			"console.log($0)"
 		]
 	},
+	"window console.log": {
+		"prefix": "-w",
+		"body": [
+			"window.console.log($0)"
+		]
+	},
 	"promise then": {
 		"prefix": ".t",
 		"body": [

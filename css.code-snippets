@@ -34,5 +34,22 @@
 			"  overflow: hidden;",
 			"}$2"
 		]
+	},
+	"绝对定位不定宽高居中": {
+		"prefix": "-c absolute center",
+		"body": [
+			"position: absolute;",
+			"top: 50%;",
+			"left: 50%;",
+			"transform: translate(-50%,-50%);$2",
+		]
+	},
+	"单行文字省略": {
+		"prefix": "-c text-hidden one",
+		"body": [
+			"overflow: hidden;",
+			"text-overflow: hidden;",
+			"white-space: nowrap;$2"
+		]
 	}
 }
