@@ -45,10 +45,10 @@
 		]
 	},
 	"单行文字省略": {
-		"prefix": "-c text-hidden one",
+		"prefix": "-c ellipsis one",
 		"body": [
 			"overflow: hidden;",
-			"text-overflow: hidden;",
+			"text-overflow: ellipsis;",
 			"white-space: nowrap;$2"
 		]
 	}
