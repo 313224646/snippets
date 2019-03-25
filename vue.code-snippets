@@ -1,0 +1,40 @@
+{
+	"vue template": {
+		"prefix": "-v",
+		"body": [
+			"<template>",
+			"  <div>",
+			"  </div>",
+			"</template>\n",
+			"<script>",
+			"export default {",
+			"  name: '${1:componentsName}',",
+			"  components: {},",
+			"  data () {",
+			"    return {}",
+			"  },",
+			"  computed: {},",
+			"  methods: {},",
+			"  created () {},",
+			"  mounted () {},",
+			"  activated () {}",
+			"}",
+			"</script>\n",
+			"<style scoped lang=\"stylus\">",
+			"</style>",
+			"$2"
+		]
+	},
+	"绑定符": {
+		"prefix": "-v bind",
+		"body": [
+			"{{$0}}"
+		]
+	},
+	"import components": {
+		"prefix": "-v import components",
+		"body": [
+			"${1:componentsName}: () => import('@/components/${2:folder}/${3:componentsName}')"
+		]
+	}
+}
