@@ -32,9 +32,21 @@
 		]
 	},
 	"import components": {
-		"prefix": "-v import components",
+		"prefix": "-v components",
 		"body": [
 			"${1:componentsName}: () => import('@/components/${2:folder}/${3:componentsName}')"
+		]
+	},
+	"import image": {
+		"prefix": "-v image",
+		"body": [
+			"@image/${1:fileName}"
+		]
+	},
+	"import css": {
+		"prefix": "-v css",
+		"body": [
+			"@import '~@css/${1:fileName}'"
 		]
 	}
 }
