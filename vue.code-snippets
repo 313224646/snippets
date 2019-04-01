@@ -52,7 +52,7 @@
 	"template img": {
 		"prefix": "-v img",
 		"body": [
-			"<img src=\"@images/${1:dev.jpg}\" alt=\"${2:tip}\">"
+			"<img src=\"@images/${1:dev.jpg}\" />"
 		]
 	}
 }
