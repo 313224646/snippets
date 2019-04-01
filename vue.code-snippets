@@ -25,7 +25,7 @@
 			"$2"
 		]
 	},
-	"绑定符": {
+	"{{}}": {
 		"prefix": "-v bind",
 		"body": [
 			"{{$0}}"
@@ -47,6 +47,12 @@
 		"prefix": "-v css",
 		"body": [
 			"@import '~@css/${1:fileName}'"
+		]
+	},
+	"template img": {
+		"prefix": "-v img",
+		"body": [
+			"<img src=\"@images/${1:dev.jpg}\" alt=\"${2:tip}\">"
 		]
 	}
 }
