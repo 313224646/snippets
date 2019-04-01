@@ -60,5 +60,12 @@
 			"-webkit-line-clamp: ${1: 3};",
 			"-webkit-box-orient: vertical;$2"
 		]
+	},
+	"flex内容垂直居中": {
+		"prefix": "-c flex align item center",
+		"body": [
+			"display: flex;",
+			"align-items: center;",
+		]
 	}
 }
