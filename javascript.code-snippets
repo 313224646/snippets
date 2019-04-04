@@ -1,0 +1,22 @@
+{
+	"promise then": {
+		"prefix": "-j then",
+		"body": [
+			".then(res => {",
+			"  $0",
+			"})"
+		]
+	},
+	"console.log": {
+		"prefix": "-j log",
+		"body": [
+			"console.log($0)"
+		]
+	},
+	"window console.log": {
+		"prefix": "-j w log",
+		"body": [
+			"window.console.log($0)"
+		]
+	}
+}
