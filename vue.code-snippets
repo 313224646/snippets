@@ -54,5 +54,11 @@
 		"body": [
 			"<img src=\"@images/${1:dev.jpg}\" />"
 		]
+	},
+	"vuex state": {
+		"prefix": "-v state",
+		"body": [
+			"this.$store.state.${1:modules}.${2:key}$0"
+		]
 	}
 }

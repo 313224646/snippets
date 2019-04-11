@@ -2,13 +2,11 @@
 	"promise promise": {
 		"prefix": "-j promise",
 		"body": [
-			"new Promise(resolve => {",
-			"  if (${1: true}){",
-			"    resolve(${2: value})",
-			"  } else {",
-			"    reject(${3: error})",
+			"new Promise(",
+			"  resolve => {",
+			"    resolve()",
 			"  }",
-			"})"
+			")"
 		]
 	},
 	"promise then": {
@@ -18,7 +16,7 @@
 			"  res => {",
 			"    $0",
 			"  }",
-			"})"
+			")"
 		]
 	},
 	"console.log": {
