@@ -36,7 +36,7 @@
 		]
 	},
 	"绝对定位不定宽高居中": {
-		"prefix": "-c absolute center",
+		"prefix": "absolute center",
 		"body": [
 			"position: absolute;",
 			"top: 50%;",
@@ -45,7 +45,7 @@
 		]
 	},
 	"单行文字省略": {
-		"prefix": "-c one line ellipsis",
+		"prefix": "one line ellipsis",
 		"body": [
 			"overflow: hidden;",
 			"text-overflow: ellipsis;",
@@ -53,19 +53,12 @@
 		]
 	},
 	"多行文字省略": {
-		"prefix": "-c multi line ellipsis",
+		"prefix": "multi line ellipsis",
 		"body": [
 			"overflow: hidden;",
 			"display: -webkit-box;",
 			"-webkit-line-clamp: ${1: 3};",
 			"-webkit-box-orient: vertical;$2"
-		]
-	},
-	"flex内容垂直居中": {
-		"prefix": "-c flex align item center",
-		"body": [
-			"display: flex;",
-			"align-items: center;",
 		]
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"promise promise": {
-		"prefix": "-j promise",
+		"prefix": "j-promise",
 		"body": [
 			"new Promise(",
 			"  resolve => {",
@@ -10,7 +10,7 @@
 		]
 	},
 	"promise then": {
-		"prefix": "-j then",
+		"prefix": "j-then",
 		"body": [
 			".then(",
 			"  res => {",
@@ -20,15 +20,9 @@
 		]
 	},
 	"console.log": {
-		"prefix": "-j log",
+		"prefix": "j-log",
 		"body": [
 			"console.log($0)"
-		]
-	},
-	"window console.log": {
-		"prefix": "-j w log",
-		"body": [
-			"window.console.log($0)"
 		]
 	}
 }

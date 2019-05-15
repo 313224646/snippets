@@ -7,7 +7,7 @@
 	// Placeholders with the same ids are connected.
 	// Example:
 	"aioxs get": {
-		"prefix": "ag",
+		"prefix": "p-axios get",
 		"body": [
 			"this.axios.get('${1:url}', {",
 			"  params: {${2}}",
@@ -17,7 +17,7 @@
 		]
 	},
 	"aioxs post": {
-		"prefix": "ap",
+		"prefix": "p-axios post",
 		"body": [
 			"this.axios.post('${1:url}', {${2}}).then(res => {",
 			"  $0",
@@ -25,13 +25,13 @@
 		]
 	},
 	"localforage": {
-		"prefix": "forage",
+		"prefix": "p-forage",
 		"body": [
 			"this.\\$forage."
 		]
 	},
 	"animate": {
-		"prefix": "animate",
+		"prefix": "p-animate",
 		"body": [
 			"style=\"animation-duration: ${1:0.3}s\""
 		]

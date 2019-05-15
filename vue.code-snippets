@@ -1,6 +1,6 @@
 {
 	"vue template": {
-		"prefix": "-v",
+		"prefix": "v",
 		"body": [
 			"<template>",
 			"  <div>",
@@ -26,7 +26,7 @@
 		]
 	},
 	"{{}}": {
-		"prefix": "-v bind",
+		"prefix": "v-bind",
 		"body": [
 			"{{$0}}"
 		]
@@ -38,27 +38,27 @@
 		]
 	},
 	"import image": {
-		"prefix": "-v image",
+		"prefix": "v-image",
 		"body": [
 			"@image/${1:fileName}"
 		]
 	},
 	"import css": {
-		"prefix": "-v css",
+		"prefix": "v-css",
 		"body": [
 			"@import '~@css/${1:fileName}'"
 		]
 	},
 	"template img": {
-		"prefix": "-v img",
+		"prefix": "v-img",
 		"body": [
 			"<img src=\"@images/${1:dev.jpg}\" />"
 		]
 	},
 	"vuex state": {
-		"prefix": "-v state",
+		"prefix": "v-state",
 		"body": [
-			"this.$store.state.${1:modules}.${2:key}$0"
+			"this.$$store.state.${1:modules}.${2:key}$0"
 		]
 	}
 }
