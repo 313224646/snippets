@@ -1,0 +1,43 @@
+{
+	"vue template": {
+		"prefix": "mp",
+		"body": [
+			"<template>",
+			"  <div>",
+			"  </div>",
+			"</template>\n",
+			"<script>",
+			"export default {",
+			"  components: {},",
+			"  data () {",
+			"    return {}",
+			"  },",
+			"  computed: {},",
+			"  methods: {},",
+			"  beforeMount () {},",
+			"  onShow () {}",
+			"}",
+			"</script>\n",
+			"<style scoped lang=\"stylus\">",
+			"</style>"
+		]
+	},
+	"{{}}": {
+		"prefix": "mpbind",
+		"body": [
+			"{{$0}}"
+		]
+	},
+	"import image": {
+		"prefix": "mpimage",
+		"body": [
+			"/static/images/${1:fileName}"
+		]
+	},
+	"template img": {
+		"prefix": "mpimg",
+		"body": [
+			"<img src=\"/static/images/${1:dev.jpg}\" />"
+		]
+	}
+}

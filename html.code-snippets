@@ -1,18 +1,22 @@
 {
 	"svg图标": {
-		"prefix": "h svg",
+		"prefix": "svg",
 		"body": [
 			"<svg class=\"icon\" aria-hidden=\"true\">",
 			"  <use xlink:href=\"#${1:icon-name}\"></use>",
 			"</svg>$2"
 		]
 	},
-	"vw img tag": {
-		"prefix": "h img",
+	"tag": {
+		"prefix": "tag",
 		"body": [
-			"<span>",
-			"  <img src=\"${1:src}\" width=\"100%\"/>",
-			"</span>"
+			"<${1:tag}>$0</${1:tag}>"
+		]
+	},
+	"tag self closing": {
+		"prefix": "tag self",
+		"body": [
+			"<${1:tag} $0/>"
 		]
 	}
 }
